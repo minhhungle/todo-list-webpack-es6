@@ -1,0 +1,22 @@
+@import './themeColors.scss';
+$theme-font:  verdana, sans-serif;
+
+body {
+  font: $theme-font;
+  background-color: $themeColor-Light;
+  li {
+    color: red;
+  }
+  #add-btn {
+    background: #123;
+    &:hover {
+      background: #345;
+    }
+  }
+  #remove-btn {
+    background: grey;
+    &:hover {
+      background: lightgray;
+    }
+  }
+}
